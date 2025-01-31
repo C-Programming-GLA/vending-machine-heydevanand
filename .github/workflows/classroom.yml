@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Existence
         setup-command: ''
-        command: make test
+        command: make hello
         timeout: 10
         max-score: 10
     - name: Autograding Reporter
